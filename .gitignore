@@ -1,0 +1,17 @@
+# macOS 系統檔案
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Obsidian 暫存、回收站與視窗工作區狀態（避免同步衝突與多餘雜訊）
+.trash/
+**/.trash/
+.obsidian/workspace*.json
+.obsidian/cache/
+
+# 敏感資訊與環境變數
+.env*
+*.local
+.agents/openai_config.json
